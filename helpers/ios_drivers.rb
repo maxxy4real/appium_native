@@ -10,12 +10,13 @@ case ENV['BROWSER']
         'platformName' => 'iOS',
         'platformVersion' => "#{@config['iphone_sim']['version']}",
         'deviceName' => 'iPhone Simulator',
+        #if testing a real native app, the app must be downloaded to the appium folder on your machine and you must specify the full location path below
         'app' => '/usr/local/lib/node_modules/appium/sample_app/UICatalog.app',
         'newCommandTimeout' => '10'
     }
     # Manadtory of Appium specific commands for native apps
     $appium = Appium::Driver.new(:caps => caps, :appium_lib => {'port' => "#{@config['iphone_sim']['port']}"})
-    # Only mandtory for use of Selenium page Objects, otherwise not needed
+    # Only mandatory for use of Selenium page Objects, otherwise not needed
     $browser = $appium.start_driver
     # Optional custom variables used in certain steps
     $browser_name = "iPhone_Simulator_#{@config['iphone_sim']['version']}"
