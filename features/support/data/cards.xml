@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<test_cards>
+    <card>
+        <Visa>
+            <number>4111111111111111</number>
+            <cvv>123</cvv>
+        </Visa>
+    </card>
+    <card>
+        <AE>
+            <number>4111111111111111</number>
+            <cvv>b@b.co.uk</cvv>
+        </AE>
+    </card>
+    <card>
+        <Amex>
+            <userid>jupt5540</userid>
+            <psw>flower1</psw>
+            <CID>7777</CID>
+        </Amex>
+    </card>
+    <card>
+           <IncompleteAmex>
+            <userid>mc78124</userid>
+            <psw>flower1</psw>
+            <CID>7777</CID>
+        </IncompleteAmex>
+    </card>
+</test_cards>

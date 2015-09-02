@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<addresses>
+    <address>
+        <uk>
+            <line1>1 testing Street</line1>
+            <city>London</city>
+            <postcode>SE192EQ</postcode>
+            <phone>01211212453</phone>
+            <region>London</region>
+        </uk>
+    </address>
+    <address>
+        <us>
+            <line1>1 testing Street</line1>
+            <city>Atlanta</city>
+            <phone>011122233344</phone>
+            <postcode>90210</postcode>
+            <phone>01211212453</phone>
+            <state>Georgia</state>
+        </us>
+    </address>
+    <address>
+        <china>
+            <line1>1 testing Street</line1>
+            <city>c@c.de</city>
+            <postcode>Max </postcode>
+            <phone>01211212453</phone>
+        </china>
+    </address>
+    <address>
+        <japan>
+            <line1>1 testing Street</line1>
+            <city>Tokyo</city>
+            <postcode>9200907</postcode>
+            <phone>01211212453</phone>
+            <gender>Male</gender>
+            <prefecture>Tokyo</prefecture>
+        </japan>
+    </address>
+</addresses>

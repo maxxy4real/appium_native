@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<signup>
+    <signupuser>
+        <UKuser>
+            <country>United Kingdom</country>
+            <title>Mr</title>
+            <firstName>Max</firstName>
+            <lastName>Tester</lastName>
+            <password>password1</password>
+            <phone>020778549631</phone>
+        </UKuser>
+    </signupuser>
+
+    <signupuser>
+        <ChinaUser>
+            <country>China</country>
+            <title>Mrs</title>
+            <lastName>Tester</lastName>
+            <firstName>Helen</firstName>
+            <password>password1</password>
+            <phone>01322854963</phone>
+        </ChinaUser>
+    </signupuser>
+
+    <signupuser>
+        <USUser>
+            <country>United States</country>
+            <title>Mrs</title>
+            <firstName>Anne</firstName>
+            <lastName>Tester</lastName>
+            <password>password1</password>
+            <phone>01787785496</phone>
+        </USUser>
+    </signupuser>
+
+    <signupuser>
+        <JapanUser>
+            <country>Japan</country>
+            <gender>Male</gender>
+            <lastName>Tester</lastName>
+            <firstName>Derin</firstName>
+            <password>password1</password>
+            <phone>07857854963</phone>
+        </JapanUser>
+    </signupuser>
+
+        <signupuser>
+        <KoreaUser>
+            <country>South Korea</country>
+            <lastName>Tester</lastName>
+            <firstName>Luke</firstName>
+            <password>password1</password>
+            <phone>07947854113</phone>
+        </KoreaUser>
+    </signupuser> 
+
+        <signupuser>
+        <Incompleteuser>
+         <country>United Kingdom</country>
+            <title>Mr</title>
+            <firstName>Max</firstName>
+            <lastName>Tester</lastName>
+        </Incompleteuser>
+    </signupuser>       
+</signup>

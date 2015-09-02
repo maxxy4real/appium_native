@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<products>
+    <product>
+        <sized>
+            <sku>39429491</sku>
+            <url>cotton-gabardine-trench-coat-p39429491</url>
+            <title>Cotton Gabardine Trench Coat</title>
+            <size>46</size>
+        </sized>
+    </product>
+    <product>
+        <size-out-of-stock>
+            <sku>39004551</sku>
+            <url>the-sandringham-mid-length-heritage-trench-coat-p39004551</url>
+            <title>Mid-Length Cotton Gabardine Trench Coat</title>
+        </size-out-of-stock>
+    </product>
+    <product>
+        <beauty>
+            <sku>39289901</sku>
+            <url>my-burberry-eau-de-parfum-50ml-p39289901</url>
+            <title>My Burberry Eau de Parfum 50ml</title>
+        </beauty>
+    </product>
+    <product>
+        <mono>
+            <sku>39234741</sku>
+            <url>heritage-cashmere-scarf-p39234741</url>
+            <title>Heritage Cashmere Scarf</title>
+        </mono>
+    </product>
+    <product>
+        <sale>
+            <sku></sku>
+            <url></url>
+            <title></title>
+        </sale>
+    </product>
+    <product>
+        <non-sale>
+            <sku>39660651</sku>
+            <url>fitted-lace-dress-p39660651</url>
+            <title>Fitted Lace Dress</title>
+            <colour>Ice Pink</colour>
+        </non-sale>
+    </product>
+    <product>
+        <single-colour>
+            <sku>39660651</sku>
+            <url>fitted-lace-dress-p39660651</url>
+            <title>Fitted Lace Dress</title>
+            <colour>Ice Pink</colour>
+        </single-colour>
+    </product>
+    <product>
+        <multicolour>
+            <sku>39703321</sku>
+            <url>english-lace-a-line-dress-p39703321</url>
+            <title>English Lace A-Line Dress</title>
+            <colour>Cherry Pink</colour>
+
+        </multicolour>
+    </product>
+    <product>
+        <restricted>
+            <sku>39411651</sku>
+            <url>alligator-wrap-trench-coat-p39345031</url>
+            <title>Alligator Wrap Trench Coat</title>
+        </restricted>
+    </product>
+    <product>
+        <favourited>
+            <sku>39004551</sku>
+        </favourited>
+    </product>
+    <product>
+        <single-item>
+            <sku>39666071</sku>
+        </single-item>
+    </product>
+</products>
