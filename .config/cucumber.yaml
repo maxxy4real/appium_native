@@ -1,0 +1,85 @@
+# .config/cucumber.yml
+##YAML Template
+---
+
+# Environments
+local:
+    :site_url: http://localhost:9000
+    :api_url: https://qa-api.apps.burberry.com/v1
+    :validator_id: atgcustomervalidatorqa
+    :client_id: qa.app.mobile
+    :client_secret: I1eWSIu3jzKk5ZFMWj2URSsLJdl76KLMk1dLIFA
+
+qa:
+    :site_url: https://bby-mb-qa.herokuapp.com
+    :api_url: https://qa-api.apps.burberry.com/v1
+    :validator_id: atgcustomervalidatorqa
+    :client_id: qa.app.mobile
+    :client_secret: I1eWSIu3jzKk5ZFMWj2URSsLJdl76KLMk1dLIFA
+
+dev:
+    :site_url: https://bby-mb-dev.herokuapp.com
+    :api_url: https://dev-api.apps.burberry.com/v1
+    :validator_id: atgcustomervalidator
+    :client_id: dev.app.mobile
+    :client_secret: p4zBrWWqrJ0lq9HMLWyLSKsWxKy9EyozRAbidl5
+
+uat:
+    :site_url: 
+    :api_url: 
+    :validator_id: 
+    :client_id: 
+    :client_secret: 
+
+pre_prod:
+    :site_url: 
+    :api_url: 
+    :validator_id: 
+    :client_id: 
+    :client_secret: 
+
+production:
+    :site_url: 
+    :api_url: 
+    :validator_id: 
+    :client_id: 
+    :client_secret: 
+
+
+# Path to appium source
+appium_path: ~/appium
+
+
+# Devices
+iOS82:
+    port: 4723
+    device_name: Burberry iPhone 6
+    version: 8.2
+    UDID: 8b7b0d23bbbe13b42ad71dbb95c7664a248cc49c
+    all:
+        qa: -t ~@wip -t ~@pending -t ~@xsafari BROWSER=iphone TEST_ENV=qa -f html -o iOS_82_rep
+android50:
+    port: 4725
+    version: 5.0
+    UDID: ab41ecf4
+    all:
+        qa: -t ~@wip -t ~@pending BROWSER=android50 TEST_ENV=qa -f html -o ANDROID_50_rep
+chrome:
+    all:
+        qa: -t ~@wip -t ~@pending -t ~@amex BROWSER=mobile TEST_ENV=qa
+safari:
+    all:
+        qa: -t ~@wip -t ~@pending BROWSER=safari TEST_ENV=qa
+firefox:
+    all:
+        qa: -t ~@wip -t ~@pending BROWSER=firefox TEST_ENV=qa
+iphone_sim:
+    port: 4723
+    version: 8.2
+    all:
+        qa: -t ~@wip -t ~@pending -t ~@xsafari -t ~@xsim -t ~@amex BROWSER=iphone_simulator TEST_ENV=qa -f html -o iOS_sim_rep
+ipad_sim:
+    port: 4723
+    version: 8.2
+    all:
+        qa: -t ~@wip -t ~@pending -t ~@xsafari -t ~@amex BROWSER=ipad_simulator TEST_ENV=qa -f html -o iOS_sim_rep
